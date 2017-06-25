@@ -5,3 +5,4 @@ _site/
 test/sample_dest/
 .nyc_output/
 coverage.lcov
+.vscode/

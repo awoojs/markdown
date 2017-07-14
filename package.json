@@ -10,7 +10,8 @@
     "ava:watch": "ava -w",
     "test": "npm run lint && npm run ava:ci",
     "coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov",
-    "update-coc": "weallbehave -o . && git add CODE_OF_CONDUCT.md && git commit -m 'update code of conduct'"
+    "update-coc": "weallbehave -o . && git add CODE_OF_CONDUCT.md && git commit -m 'update code of conduct'",
+    "publish": "np"
   },
   "files": [
     "lib",
@@ -34,6 +35,7 @@
   "devDependencies": {
     "ava": "^0.19.1",
     "codecov": "^2.2.0",
+    "np": "2.16.0",
     "nyc": "^11.0.2",
     "snazzy": "^7.0.0",
     "standard": "^10.0.2",

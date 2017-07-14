@@ -8,15 +8,17 @@
 </p>
 
 <p>
-  <!-- Stability -->
-  <a href="https://nodejs.org/api/documentation.html#documentation_stability_index"><img src="https://img.shields.io/badge/stability-stable-green.svg?style=flat-square"
-  alt="API stability"></a>
   <!-- code coverage -->
   <a href="https://codecov.io/gh/wehjs/markdown"><img src="https://img.shields.io/codecov/c/github/wehjs/markdown.svg?style=flat-square"
   alt="code coverage"></a>
   <!-- travis ci -->
   <a href="https://travis-ci.org/wehjs/markdown"><img src="https://img.shields.io/travis/wehjs/markdown.svg?style=flat-square"
   alt="test status"></a>
+  <!-- npm version -->
+  <a href="https://npmjs.org/package/@weh/markdown">
+    <img src="https://img.shields.io/npm/v/@weh/markdown.svg?style=flat-square"
+      alt="npm version" />
+  </a>
   <!-- code style -->
   <a href="https://github.com/feross/standard"><img src="https://img.shields.io/badge/code%20style-standard-blue.svg?style=flat-square"
   alt="code style: standard"></a>

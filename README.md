@@ -34,7 +34,7 @@
 npm install --save @weh/markdown
 ```
 
-## Default example
+## Usage example
 
 ```js
 const weh = require('@weh/weh')
@@ -86,6 +86,28 @@ weh(async site => {
   return site
 })
 ```
+
+## Development
+
+To work on this repository, clone it and install the npm dependencies:
+
+```sh
+git clone https://github.com/wehjs/markdown weh-markdown
+cd weh-markdown
+npm install
+```
+
+There are a couple of npm scripts provided for convenience:
+
+- `npm test` - runs linters and ava in ci mode
+- `npm run lint` - runs linters
+- `npm run ava` - only runs ava once
+- `npm run ava:ci` - runs ava in ci mode (generates coverage data)
+- `npm run ava:watch` - runs ava in watch mode
+- `npm run coverage` - generates coverage data
+- `npm run update-coc` - pulls the latest `weallbehave` code of conduct
+- `npm run publish` - published npm package using `np`
+
 
 ## Code of Conduct
 

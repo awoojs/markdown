@@ -11,7 +11,7 @@
     "test": "npm run lint && npm run ava:ci",
     "coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov",
     "update-coc": "weallbehave -o . && git add CODE_OF_CONDUCT.md && git commit -m 'update code of conduct'",
-    "publish": "np"
+    "deploy": "np"
   },
   "files": [
     "lib",

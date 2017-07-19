@@ -1,6 +1,6 @@
 repository:
   name: markdown
-  description: ':small_red_arrow_down: markdown parsing plugin for weh'
+  description: ':small_red_triangle_down: markdown parsing plugin for weh'
   homepage: http://npm.im/@weh/markdown/
   private: false
   has_issues: true

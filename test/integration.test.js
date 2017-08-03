@@ -16,4 +16,5 @@ test('correctly parses', async t => {
   }, files)
 
   t.is(res.files[0].contents, '<h1>hello</h1>\n')
+  t.is(res.files[0].path, 'test.html')
 })

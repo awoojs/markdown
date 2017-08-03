@@ -95,6 +95,8 @@ weh(async site => {
 })
 ```
 
+All processed files are renamed to `<filename>.html` after being converted.
+
 ## Development
 
 To work on this repository, clone it and install the npm dependencies:

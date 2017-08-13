@@ -1,3 +1,5 @@
+# DEPRECATED! ALL OFFICIAL PLUGINS NOW LIVE IN [CORE](http://github.com/wehjs/core)
+
 <div align="center">
 <h1>
   @weh/markdown
